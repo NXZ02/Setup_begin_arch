@@ -13,7 +13,7 @@ clear
 echo -e "" ${Y}
 echo -e "##############################################################" | lolcat
 echo -e "" ${C}
-figlet SETUP.sh | lolcat 
+figlet SETUP . sh | lolcat 
 #echo -e "" ${Y}
 echo -e "##############################################################" | lolcat 
 echo -e "" ${W}
@@ -94,7 +94,7 @@ step_3() {
     echo "[+] IMG NOT SHOW " | lolcat
     sleep 1
 	
-	sudo pacman -S lightdm-gtk-greeter-settings $yes
+    sudo pacman -S lightdm-gtk-greeter-settings $yes
     sudo pacman -S mpv $yes
     sudo pacman -S ffmpeg $yes 
     sudo pacman -S gthumb $yes 
