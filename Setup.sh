@@ -101,6 +101,7 @@ step_3() {
     sudo pacman -S ffmpegthumbnailer ffmpeg $yes
     sudo pacman -S vlc $yes
     sudo pacman -S unzip unrar p7zip $yes
+    sudo pacman -S noto-fonts-emoji noto-fonts  ttf-dejavu noto-fonts-cjk noto-fonts-extra $yes
 }
 
 deep(){
